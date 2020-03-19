@@ -36,8 +36,8 @@ while True:
     if D > 0:
         x1 = float((-b + math.sqrt(D)) / (2 * a))
         x2 = float((-b - math.sqrt(D)) / (2 * a))
-        print(f"x1 = ({-b} + {int(math.sqrt(D))}) / (2 * {a}) = {x1}\n"
-              f"x2 = ({-b} - {int(math.sqrt(D))}) / (2 * {a}) = {x2}")
+        print(f"x1 = ({-b} + {float(math.sqrt(D))}) / (2 * {a}) = {x1}\n"
+              f"x2 = ({-b} - {float(math.sqrt(D))}) / (2 * {a}) = {x2}")
     elif D == 0:
         x = -b / 2 * a
         print(f"x = {-b} / 2 * {a} = {x}")
